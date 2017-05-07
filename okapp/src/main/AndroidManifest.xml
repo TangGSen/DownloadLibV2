@@ -30,7 +30,7 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name=".okserver.DownloadManagerActivity"
+            android:name=".download.DownloadManagerActivityV"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"/>
 

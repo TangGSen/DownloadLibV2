@@ -21,6 +21,7 @@ import com.lzy.demo.R;
 import com.lzy.demo.base.BaseActivity;
 import com.lzy.demo.base.BaseRecyclerAdapter;
 import com.lzy.demo.base.DividerItemDecoration;
+import com.lzy.demo.download.DownloadManagerActivityV;
 import com.lzy.demo.model.ApkModel;
 import com.lzy.okgo.OkGo;
 import com.lzy.okgo.request.GetRequest;
@@ -82,7 +83,7 @@ public class DownloadActivity extends BaseActivity {
         openManager.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), DownloadManagerActivity.class));
+                startActivity(new Intent(getApplicationContext(), DownloadManagerActivityV.class));
             }
         });
     }
