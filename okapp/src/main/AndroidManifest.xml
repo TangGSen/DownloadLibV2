@@ -15,7 +15,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".okserver.DownloadActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -25,13 +26,12 @@
         </activity>
 
         <activity
-            android:name=".okserver.DownloadManagerActivity"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity
             android:name=".okserver.DesActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name=".okserver.DownloadActivity"
+            android:name=".okserver.DownloadManagerActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"/>
 
     </application>
